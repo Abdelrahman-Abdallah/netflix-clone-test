@@ -1,0 +1,10 @@
+.moviehome {
+  background-image: linear-gradient(to bottom left, #000, #333);
+
+  &__container {
+    height: 50vh;
+  }
+  &__poster {
+    height: 35%;
+  }
+}

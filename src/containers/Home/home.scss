@@ -1,0 +1,12 @@
+.home {
+  &__header {
+    height: 95vh;
+    background-image: url("../../assets/background.jpg");
+    background-size: cover;
+    margin-bottom: -40vh;
+  }
+
+  &__genres {
+    background-color: rgba(#000000, 0.2);
+  }
+}

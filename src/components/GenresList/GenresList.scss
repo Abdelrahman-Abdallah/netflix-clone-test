@@ -1,0 +1,19 @@
+.moviesContainer {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(6, minmax(100px, 200px));
+}
+.genres {
+  &__title {
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 20px;
+    margin: 10px 0 10px 10px;
+    display: inline-block;
+    &:hover {
+      font-style: italic;
+      background: linear-gradient(to left, #000, rgb(214, 39, 39));
+    }
+  }
+}

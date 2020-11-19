@@ -1,0 +1,45 @@
+.movie__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 30px;
+  padding: 5px 0;
+
+  &--title {
+    padding: 0;
+    color: white;
+  }
+}
+.controls {
+  &__input {
+    align-self: center;
+    height: 100%;
+    flex-basis: 40%;
+    background-color: #333;
+    border: 1px solid #111;
+    color: white;
+    transition: all 0.15s;
+    &:focus {
+      outline: none;
+      border: 1px solid #555;
+      transform: scale(1.15);
+    }
+  }
+  &__select {
+    flex-basis: 15%;
+    padding: 2px 0;
+    background-color: #555;
+    color: white;
+    transition: all 0.15s;
+    &:focus {
+      outline: none;
+      transform: scale(1.05);
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .movie__header {
+    flex-direction: row;
+  }
+}
